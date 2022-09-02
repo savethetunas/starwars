@@ -1,5 +1,6 @@
 
 width = int(input('Enter number:\n'))
+print('')
 # its 9 spaces wide foe empty strings due to
 # the cockpit is 9 spaces wide at the smallest.
 print('|[' + ' ' * width + '         ' + ' ' * width + ']|')
