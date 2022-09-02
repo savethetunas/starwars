@@ -1,5 +1,5 @@
 
-width = int(input('Enter number:\n'))
+width = int(input('Enter TIE width:\n'))
 print('')
 # its 9 spaces wide foe empty strings due to
 # the cockpit is 9 spaces wide at the smallest.
