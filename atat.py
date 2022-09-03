@@ -4,7 +4,7 @@ leg = int(input('Leg Height:\n'))
 
 print('')
 
-print('    _..-Y  |  |  Y-._')
+print('     _..-Y  |  |  Y-._')
 print(' .--"   ||  |  |  |   "-.')
 print(' |______________________|\n' * body, end='')
 print(' |______________________|', ' ' * neck + '   _____')
