@@ -1,11 +1,19 @@
+neck = int(input('Neck Length:\n'))
+body = int(input('Body Height:\n'))
+leg = int(input('Leg Height:\n'))
 
-width = int(input('Enter number:\n'))
-
-# its 9 spaces wide for empty strings due to
-# the cockpit is 9 spaces wide at the smallest.
-print('|[' + ' ' * width + '         ' + ' ' * width + ']|')
-print('|[' + ' ' * width + ' /=---=\\ ' + ' ' * width + ']|')
-print('|[' + '/' * width + '|== X ==|' + '\\' * width + ']|')
-print('|[' + ' ' * width + ' \\=---=/ ' + ' ' * width + ']|')
-print('|[' + ' ' * width + '         ' + ' ' * width + ']|')
-
+print('    _..-Y  |  |  Y-._')
+print('.--"   ||  |  |  |   "-.')
+print(' |______________________|\n' * body, end='')
+print(' |______________________|', ' ' * neck + '   _____')
+print(' L______________________[' + '-' * neck + '----------).')
+print('I____________________ [__L][----(_}--P')
+print('L________________________j~ \'+++++++//')
+print('\\________________________]')
+print('  [___________________]')
+print('     I--I"~~"""~~"I--I')
+print('     |\\n|         |\\n|\n' * leg, end="")
+print('     ([])         ([])')
+print('    /||||\\       /||||\\')
+print('   |=}--{=|     |=}--{=|')
+print('  .-4----4-.   .-4----4-.')
