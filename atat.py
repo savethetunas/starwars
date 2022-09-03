@@ -2,6 +2,8 @@ neck = int(input('Neck Length:\n'))
 body = int(input('Body Height:\n'))
 leg = int(input('Leg Height:\n'))
 
+print('')
+
 print('    _..-Y  |  |  Y-._')
 print('.--"   ||  |  |  |   "-.')
 print(' |______________________|\n' * body, end='')
