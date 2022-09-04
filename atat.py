@@ -11,7 +11,7 @@ leg = int(input('Leg Height:\n'))
 print('')
 
 ### Passing white space to the end='' tells python to end
-### with a white space and not a new line.
+### with a white space instead of a new line.
 ### By using \n it tells python to advance the output
 ### to the next line. This way the body can build upward.
 ### The neck adjustments were done by joining the non-moving body
