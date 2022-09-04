@@ -6,7 +6,7 @@
 
 ### \n causes output to be advanced to the next line.
 ### The int() function converts the value into an integer.
-width = int(input('Enter number:\n'))
+width = int(input('Enter TIE width:\n'))
 print("")
 
 
