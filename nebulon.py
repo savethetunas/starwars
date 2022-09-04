@@ -2,7 +2,7 @@ large = int(input('Large Layers on bottom:\n'))
 medium = int(input('Medium Layers on bottom:\n'))
 small = int(input('Small Layers on bottom:\n'))
 front = int(input('Front length:\n'))
-
+print("")
 front_minus_four = int(front - 4)
 
 front_divide_two = int(front / 2)
