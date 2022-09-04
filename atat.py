@@ -1,7 +1,7 @@
 ﻿### Author: Adam Fehse
 ### Course: CSc 110
 ### Description: Make an AT-AT that can accept three inputs
-###              and adjust 3 parts different parts of the machine.
+###              and adjust three different sections of the machine.
 
 
 neck = int(input('Neck Length:\n'))
