@@ -12,7 +12,7 @@ print('')
 
 ### Passing white space to the end='' tells python to end
 ### with a white space and not a new line.
-## By using \n it tells python to advance the output
+### By using \n it tells python to advance the output
 ### to the next line. This way the body can build upward.
 ### The neck adjustments were done by joining the non-moving body
 ### with the characters in a string, then multiplying by the neck
