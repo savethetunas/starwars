@@ -10,7 +10,7 @@ front_divide_modulas_two = int(front / 2) + (front % 2)
 
 front_divide_three = int(front / 3)
 
-hash_line_space = int((front * .77))
+hash_line_space = int((front * .7))
 
 print('  /='+ '-' * front +'\                 /--------|')
 print(' /=='+ '/' * front +'====\            |=========|')
