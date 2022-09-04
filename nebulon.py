@@ -32,13 +32,13 @@ front_divide_three = int(front / 3)
 ### as well but not for the 17 test case. By multiplying the front input
 ### by 1.42 than dividing by 2, the even inputs will be .1 or so over
 ### the target value and round down. The odds will be further from the
-### desired value but will round down to the corrent digit.
+### desired value but will round down to the correct digit.
 hash_line_space = int((front * 1.42) / 2)
 
 ### The large, medium, and small layers grow vertically and horizontally
-### by user input. The horizontal growth is restricted to the above forumalas.
+### by user input. The horizontal parts are restricted to the above formulae.
 ### By performing all calculations within ()'s and then concatenating the escape
-### charecter "\n" causes the output to be forced to a new line.
+### character "\n" causes the output to be forced to a new line.
 ### The end="" function is passed to the entire line which tells python to print an
 ### empty space instead of a new line.
 print('  /='+ '-' * front +'\                 /--------|')
