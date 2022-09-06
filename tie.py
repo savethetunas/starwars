@@ -5,14 +5,10 @@
 
 
 ### \n causes output to be advanced to the next line.
-### The int() function converts the value into an integer.
 width = int(input('Enter TIE width:\n'))
 print("")
 
 
-### I concatenated |[ to a space then multiplied that by the width variable.
-### Then concatenated a string with 9 spaces + a single space.
-### Then multiplied that by width plus ]|.
 ### Had to use an extra \ because it acts as escape char.
 print('|[' + ' ' * width + '         ' + ' ' * width + ']|')
 print('|[' + ' ' * width + ' /=---=\\ ' + ' ' * width + ']|')
